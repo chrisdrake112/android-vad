@@ -27,6 +27,7 @@ android {
         ndkBuild {
             path "./src/main/jni/Android.mk"
         }
+        ndkVersion "21.0.6113669"
     }
 
     buildTypes {
